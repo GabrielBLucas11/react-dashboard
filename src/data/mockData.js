@@ -328,6 +328,8 @@ export const mockBarData = [
     kebabColor: "hsl(97, 70%, 50%)",
     donut: 140,
     donutColor: "hsl(340, 70%, 50%)",
+    fries: 50,
+    sandwich: 100,
   },
   {
     country: "AE",
@@ -427,6 +429,16 @@ export const mockPieData = [
     label: "scala",
     value: 584,
     color: "hsl(344, 70%, 50%)",
+  },
+  {
+    id: "phyton",
+    label: "phyton",
+    value: 700,
+  },
+  {
+    id: "c",
+    label: "c",
+    value: 300,
   },
 ];
 
