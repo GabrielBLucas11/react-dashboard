@@ -141,7 +141,7 @@ export const themeSettings = (mode) => {
               light: colors.grey[100],
             },
             background: {
-              defalt: colors.primary[500],
+              default: colors.primary[500],
             },
           }
         : {
@@ -157,7 +157,7 @@ export const themeSettings = (mode) => {
               light: colors.grey[100],
             },
             background: {
-              defalt: "#fcfcfc",
+              default: "#fcfcfc",
             },
           }),
     },
