@@ -440,6 +440,11 @@ export const mockPieData = [
     label: "c",
     value: 300,
   },
+  {
+    id: "c#",
+    label: "c#",
+    value: 500,
+  },
 ];
 
 export const mockLineData = [
@@ -489,11 +494,11 @@ export const mockLineData = [
       },
       {
         x: "skateboard",
-        y: 35,
+        y: 60,
       },
       {
         x: "others",
-        y: 14,
+        y: 140,
       },
     ],
   },
