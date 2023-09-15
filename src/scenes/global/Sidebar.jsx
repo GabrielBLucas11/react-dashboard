@@ -96,7 +96,7 @@ const Sidebar = () => {
                   alt="profile-user"
                   width="100px"
                   height="100px"
-                  src={`../../assets/foto.png`}
+                  src={`../../assets/user.png`}
                   style={{
                     cursor: "pointer",
                     borderRadius: "50%",
@@ -111,7 +111,7 @@ const Sidebar = () => {
                   fontWeight="bold"
                   sx={{ m: "10px 0 0 0" }}
                 >
-                  Jonatas Frankstain III
+                  Usuario
                 </Typography>
               </Box>
             </Box>
