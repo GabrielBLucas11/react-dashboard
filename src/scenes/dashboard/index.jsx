@@ -1,12 +1,11 @@
-import { Box, Button, IconButton, Typography, useTheme } from "@mui/material";
+import { Box, Button, useTheme } from "@mui/material";
 import { tokens } from "../../theme";
 import Header from "../../components/Header";
 import DownloadOutlinedIcon from "@mui/icons-material/DownloadOutlined";
-import BarChart from "../../components/BarChart";
-import GeographyChart from "../../components/LineChart";
 import Row1Dashboard from "../../components/Row1Dashboard";
 import Row2Dashboard from "../../components/Row2Dashboard";
 import TransactionsDashboard from "../../components/TransactionsDashboard";
+import Row3Dashboard from "../../components/Row3Dashboard";
 
 const Dashboard = () => {
   const theme = useTheme();
@@ -37,7 +36,7 @@ const Dashboard = () => {
         </Box>
       </Box>
 
-      {/* Drid and Charts */}
+      {/* Grid and Charts */}
       <Box
         display="grid"
         gridTemplateColumns="repeat(12, 1fr)"
@@ -47,6 +46,7 @@ const Dashboard = () => {
         <Row1Dashboard /> {/* Row 1 */}
         <Row2Dashboard /> {/* Row 2 */}
         <TransactionsDashboard /> {/* Transactions */}
+        <Row3Dashboard />
       </Box>
     </Box>
   );

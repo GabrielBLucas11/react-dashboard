@@ -27,7 +27,7 @@ const Row1Dashboard = () => {
         <StatBox
           title="12,361"
           subtitle="Emails Sent"
-          progress="0.60"
+          progress="0.10"
           increase="+14%"
           icon={
             <EmailIcon
